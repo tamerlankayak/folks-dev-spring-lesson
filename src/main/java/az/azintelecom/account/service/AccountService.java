@@ -1,7 +1,7 @@
 package az.azintelecom.account.service;
 
 import az.azintelecom.account.dto.AccountDto;
-import az.azintelecom.account.dto.AccountDtoConverter;
+import az.azintelecom.account.dto.convertor.AccountDtoConverter;
 import az.azintelecom.account.dto.CreateAccountRequest;
 import az.azintelecom.account.model.Account;
 import az.azintelecom.account.model.Customer;

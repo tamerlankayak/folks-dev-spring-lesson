@@ -1,5 +1,6 @@
-package az.azintelecom.account.dto;
+package az.azintelecom.account.dto.convertor;
 
+import az.azintelecom.account.dto.TransactionDto;
 import az.azintelecom.account.model.Transaction;
 import org.springframework.stereotype.Component;
 

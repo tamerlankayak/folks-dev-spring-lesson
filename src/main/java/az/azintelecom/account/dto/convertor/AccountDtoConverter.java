@@ -1,5 +1,6 @@
-package az.azintelecom.account.dto;
+package az.azintelecom.account.dto.convertor;
 
+import az.azintelecom.account.dto.AccountDto;
 import az.azintelecom.account.model.Account;
 import org.springframework.stereotype.Component;
 
@@ -11,7 +12,9 @@ public class AccountDtoConverter {
     private final CustomerDtoConverter customerDtoConverter;
     private final TransactionDtoConverter transactionDtoConverter;
 
-    public AccountDtoConverter(CustomerDtoConverter customerDtoConverter, TransactionDtoConverter transactionDtoConverter) {
+    public AccountDtoConverter(
+            CustomerDtoConverter customerDtoConverter,
+            TransactionDtoConverter transactionDtoConverter) {
         this.customerDtoConverter = customerDtoConverter;
         this.transactionDtoConverter = transactionDtoConverter;
     }
